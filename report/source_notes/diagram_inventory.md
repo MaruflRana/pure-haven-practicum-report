@@ -9,4 +9,8 @@ Planned diagrams for the Pure Haven BD practicum report:
 - DFD Level 0, Level 1, and Level 2 diagrams.
 - ERD for database design.
 
+| Figure | Diagram Title | File Path | Status |
+| --- | --- | --- | --- |
+| Figure 3.1 | Use Case Diagram of Pure Haven BD | report/figures/chapter_03/figure_3_1_use_case_diagram.png | Approved |
+
 Diagram rules: black and white, report-ready, no unnecessary actors, no customer login/registration, and no external payment gateway actor.
