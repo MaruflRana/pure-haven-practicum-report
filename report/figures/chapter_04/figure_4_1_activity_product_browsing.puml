@@ -1,0 +1,39 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 11
+skinparam activity {
+  BorderColor Black
+  BackgroundColor White
+  FontColor Black
+  DiamondBorderColor Black
+  DiamondBackgroundColor White
+  StartColor Black
+  EndColor Black
+}
+skinparam arrow {
+  Color Black
+  FontColor Black
+}
+
+start
+
+:Customer/Visitor opens Pure Haven BD website;
+:System displays homepage;
+:Customer/Visitor opens shop/product section;
+:System displays product list;
+:Customer/Visitor searches keyword or selects category/subcategory;
+:System filters matching products;
+
+if (Products found?) then (Yes)
+  :Customer/Visitor views product results;
+  :Customer/Visitor opens product details;
+  :System displays product image, price,\ndescription, stock/variant information;
+else (No)
+  :System displays no matching product message;
+  :Customer/Visitor may change search/filter;
+endif
+
+stop
+@enduml

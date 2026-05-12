@@ -12,5 +12,6 @@ Planned diagrams for the Pure Haven BD practicum report:
 | Figure | Diagram Title | File Path | Status |
 | --- | --- | --- | --- |
 | Figure 3.1 | Use Case Diagram of Pure Haven BD | report/figures/chapter_03/figure3_1_use_case_diagram.png | Approved |
+| Figure 4.1 | Activity Diagram for Product Browsing | report/figures/chapter_04/figure_4_1_activity_product_browsing.png | Approved |
 
 Diagram rules: black and white, report-ready, no unnecessary actors, no customer login/registration, and no external payment gateway actor.
